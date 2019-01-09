@@ -1,0 +1,1200 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     58673,       1190]
+NotebookOptionsPosition[     33936,        838]
+NotebookOutlinePosition[     35112,        868]
+CellTagsIndexPosition[     35069,        865]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Markdown", " ", "metadata"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"<|", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"\"\<Date\>\"", "\[RuleDelayed]", "Now"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<ExportOptions\>\"", "\[Rule]", 
+     RowBox[{"{", "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{"\"\<UseImageInput\>\"", "\[Rule]", "True"}], "*)"}], 
+      "\[IndentingNewLine]", "}"}]}]}], "\[IndentingNewLine]", 
+   "|>"}]}]], "Metadata",ExpressionUUID->"01c5a453-0d36-40e9-ada6-\
+20b43ebe3095"],
+
+Cell["VQM Symbol", "TitleBar",
+ CellID->621773810,ExpressionUUID->"33d788c9-48ac-494e-ba76-0c30ae9e8a14"],
+
+Cell[CellGroupData[{
+
+Cell["QCombinedPlot", "Section", "SymbolName",ExpressionUUID->"215ec60f-f256-440a-9c8e-b90bef60ef88"],
+
+Cell["", "UsageSection",ExpressionUUID->"2f035430-e4b0-416d-a573-def8c5bac8b9"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"fun", ",", " ", "fun"}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", "xmi", ",", " ", "xma"}], "}"}], ",", " ", "opt"}],
+   "]"}]], "Code", \
+"UsageInput",ExpressionUUID->"c1897e98-325c-4729-a081-888533deefe1"],
+
+Cell[" has no usage message", "Text", "UsageText",ExpressionUUID->"2dfa51d6-3862-4eb1-9d91-f1df10ff78c4"],
+
+Cell["", "UsageSectionFooter",ExpressionUUID->"8dbe1ec3-dd99-4097-9e2d-7db1ada4f077"],
+
+Cell[CellGroupData[{
+
+Cell["Details", "Subsection", "DetailsSection",ExpressionUUID->"1e21c504-88ca-45ef-9747-8be56da70db8"],
+
+Cell[CellGroupData[{
+
+Cell["QCombinedPlot has 1 call pattern", "Item", "DetailsItem",ExpressionUUID->"e909815e-543a-485b-bd51-4474190f275a"],
+
+Cell["QCombinedPlot has the following Options", "Item", "DetailsItem",ExpressionUUID->"c8573b38-ed9c-45a6-9f57-abccac68344b"],
+
+Cell[CellGroupData[{
+
+Cell["ClippingStyle", "Subitem", "DetailsItem",ExpressionUUID->"4be96c0d-8fb3-4020-9bc2-73d0c69173ae"],
+
+Cell["None", "Subsubitem", "DetailsItem",ExpressionUUID->"b446588e-2da1-47b0-8a72-f78d2a9d29b6"],
+
+Cell["ColorFunction", "Subitem", "DetailsItem",ExpressionUUID->"c83463d6-0569-4ca9-a278-28cbd1e8ce25"],
+
+Cell["Automatic", "Subsubitem", "DetailsItem",ExpressionUUID->"6a515914-0e2c-4272-b742-7c53c92550f0"],
+
+Cell["ColorFunctionScaling", "Subitem", "DetailsItem",ExpressionUUID->"4afe0347-989e-4a3b-af95-caab82966b1c"],
+
+Cell["True", "Subsubitem", "DetailsItem",ExpressionUUID->"c346295f-ca37-4c13-9557-2f9c4edd0aa9"],
+
+Cell["Compiled", "Subitem", "DetailsItem",ExpressionUUID->"5f39cbfc-32d1-4507-9cac-2ed25b57084e"],
+
+Cell["True", "Subsubitem", "DetailsItem",ExpressionUUID->"9b0a1cd6-975a-48e0-9e07-e50ba7ee2835"],
+
+Cell["DataRange", "Subitem", "DetailsItem",ExpressionUUID->"33089e9c-a838-417f-87aa-91565dca379d"],
+
+Cell["Automatic", "Subsubitem", "DetailsItem",ExpressionUUID->"b50fd3ca-1ea5-45a6-bf4f-517651d3f5be"],
+
+Cell["Filling", "Subitem", "DetailsItem",ExpressionUUID->"b40d3ebb-989a-4761-95e6-eda07f56146e"],
+
+Cell["None", "Subsubitem", "DetailsItem",ExpressionUUID->"a400f66c-c850-4368-b068-976627219ff8"],
+
+Cell["FillingStyle", "Subitem", "DetailsItem",ExpressionUUID->"fc923ef1-a5ef-46e6-be9f-b9bfedf81267"],
+
+Cell["Automatic", "Subsubitem", "DetailsItem",ExpressionUUID->"c9e1bf36-9bc6-4a69-aaae-733ffe98d784"],
+
+Cell["InterpolationOrder", "Subitem", "DetailsItem",ExpressionUUID->"5748b035-521a-4d72-971c-88c7caf9ffc4"],
+
+Cell["None", "Subsubitem", "DetailsItem",ExpressionUUID->"c9886e01-cbb0-4a99-b40c-7fbde9cea22e"],
+
+Cell["Joined", "Subitem", "DetailsItem",ExpressionUUID->"f986f47b-0b0a-4506-8219-1e437e35755a"],
+
+Cell["True", "Subsubitem", "DetailsItem",ExpressionUUID->"5f6f871e-926d-4628-908a-fe611ec65c6a"],
+
+Cell["LabelingFunction", "Subitem", "DetailsItem",ExpressionUUID->"d1d97da2-d962-4b1d-98f5-d75d8a436c06"],
+
+Cell["Automatic", "Subsubitem", "DetailsItem",ExpressionUUID->"598b9148-e5ba-4ec9-a7ea-0926a5ea6cf2"],
+
+Cell["LabelingSize", "Subitem", "DetailsItem",ExpressionUUID->"8fa0a254-0616-43eb-8450-9ab56747d3fd"],
+
+Cell["Automatic", "Subsubitem", "DetailsItem",ExpressionUUID->"ac25327b-76d9-4587-ad97-dd6d38928477"],
+
+Cell["MaxPlotPoints", "Subitem", "DetailsItem",ExpressionUUID->"2f6b8f2c-d63a-4b13-8cf6-0033ab2167b8"],
+
+Cell["Infinity", "Subsubitem", "DetailsItem",ExpressionUUID->"c62b3d26-0a71-4a0b-92f0-c7a374cd735d"],
+
+Cell["Mesh", "Subitem", "DetailsItem",ExpressionUUID->"7463acf9-2932-4f59-b6cb-66548d2b9360"],
+
+Cell["None", "Subsubitem", "DetailsItem",ExpressionUUID->"9a351638-e59e-4507-86f8-4d3ba1f81cc7"],
+
+Cell["MeshFunctions", "Subitem", "DetailsItem",ExpressionUUID->"1ab3bc82-6d9b-447b-957e-b0dda9e9f138"],
+
+Cell["{#1 & }", "Subsubitem", "DetailsItem",ExpressionUUID->"4d431981-2595-46e7-8377-8442dbb4b0d0"],
+
+Cell["MeshShading", "Subitem", "DetailsItem",ExpressionUUID->"2090e591-4aa1-4139-99bd-2cc9a5689603"],
+
+Cell["None", "Subsubitem", "DetailsItem",ExpressionUUID->"92217f10-84eb-4a9c-b61f-0585afcef209"],
+
+Cell["MeshStyle", "Subitem", "DetailsItem",ExpressionUUID->"3b64d8f1-0ea8-47c4-80d4-0cc9f32d6180"],
+
+Cell["Automatic", "Subsubitem", "DetailsItem",ExpressionUUID->"687a8a12-6a88-4ee3-93b4-c5b75c74695d"],
+
+Cell["Opacity", "Subitem", "DetailsItem",ExpressionUUID->"0f7f8763-233e-411a-be6e-aabcd6338673"],
+
+Cell["1", "Subsubitem", "DetailsItem",ExpressionUUID->"ba5f3be3-8a80-4bbd-9b69-1aaa5dddc971"],
+
+Cell["PlotLabels", "Subitem", "DetailsItem",ExpressionUUID->"679e75fa-d158-4ebb-8154-71edd9f17acc"],
+
+Cell["None", "Subsubitem", "DetailsItem",ExpressionUUID->"a746c59d-25c7-444e-80ee-3a80346adf3c"],
+
+Cell["PlotLayout", "Subitem", "DetailsItem",ExpressionUUID->"7a8da35c-af8e-40a4-9a0b-1f0351a62a60"],
+
+Cell["\"Overlaid\"", "Subsubitem", "DetailsItem",ExpressionUUID->"0f37cdc3-d10f-48ab-ac43-af709669d0bd"],
+
+Cell["PlotLegends", "Subitem", "DetailsItem",ExpressionUUID->"04e4a96e-3d3b-4bfe-b9f9-39aa28aa1b66"],
+
+Cell["None", "Subsubitem", "DetailsItem",ExpressionUUID->"b96a25e3-1ae0-43d2-a2ae-1a9391ce3809"],
+
+Cell["PlotMarkers", "Subitem", "DetailsItem",ExpressionUUID->"98b3157f-cfe3-4b50-90db-1598d089c7b4"],
+
+Cell["None", "Subsubitem", "DetailsItem",ExpressionUUID->"baf38256-941c-4a9d-9335-1db1db67e6b9"],
+
+Cell["PlotStyle", "Subitem", "DetailsItem",ExpressionUUID->"0b477b3d-532e-4a14-a4bd-2ad386895ecd"],
+
+Cell["Automatic", "Subsubitem", "DetailsItem",ExpressionUUID->"d87437b5-d0f9-462c-b051-bd0e86223c4d"],
+
+Cell["QBottomLine", "Subitem", "DetailsItem",ExpressionUUID->"63d50d30-9f62-4bfe-9bfb-2f444fc0eeb7"],
+
+Cell["0", "Subsubitem", "DetailsItem",ExpressionUUID->"75df5b12-d577-4fca-b003-ac36e7e99129"],
+
+Cell["QBrightness", "Subitem", "DetailsItem",ExpressionUUID->"8e31e6d7-1993-4d4f-b675-393394ad9852"],
+
+Cell["1", "Subsubitem", "DetailsItem",ExpressionUUID->"502b2567-4af9-4a83-8250-a207d82297e2"],
+
+Cell["QPlotDown", "Subitem", "DetailsItem",ExpressionUUID->"793c1710-fdce-4dbb-9fe5-6b3e42d86c20"],
+
+Cell["False", "Subsubitem", "DetailsItem",ExpressionUUID->"9afa97b4-2da0-4f0b-bea8-c01a131942d6"],
+
+Cell["QSaturation", "Subitem", "DetailsItem",ExpressionUUID->"77db8be4-05f2-4cf1-a106-9c778b0967b8"],
+
+Cell["1", "Subsubitem", "DetailsItem",ExpressionUUID->"1d75db58-db30-460e-9506-3e76f3ca58cf"],
+
+Cell["QShiftPlot", "Subitem", "DetailsItem",ExpressionUUID->"c15c4aab-a131-4251-97d9-4b053a86673c"],
+
+Cell["0", "Subsubitem", "DetailsItem",ExpressionUUID->"33deb9de-ea1b-4321-9399-fb9b0af151c3"],
+
+Cell["QSquared", "Subitem", "DetailsItem",ExpressionUUID->"9804f784-6e49-422a-945d-af10f302bf01"],
+
+Cell["False", "Subsubitem", "DetailsItem",ExpressionUUID->"b199d336-fbca-4ad3-83ae-0a06927963d3"],
+
+Cell["ScalingFunctions", "Subitem", "DetailsItem",ExpressionUUID->"27dd4360-315e-4495-95d1-a583918db875"],
+
+Cell["None", "Subsubitem", "DetailsItem",ExpressionUUID->"eb78baac-ea14-4330-9fad-32a78984d8e3"],
+
+Cell["TargetUnits", "Subitem", "DetailsItem",ExpressionUUID->"17b4b14a-ede6-4f54-8039-82aa0ce0d4ff"],
+
+Cell["Automatic", "Subsubitem", "DetailsItem",ExpressionUUID->"d3cdfd5a-f811-4e34-8938-0de8a38b9f42"],
+
+Cell["PerformanceGoal", "Subitem", "DetailsItem",ExpressionUUID->"32a26872-80e3-4dd0-8c9a-e9380f142332"],
+
+Cell["$PerformanceGoal", "Subsubitem", "DetailsItem",ExpressionUUID->"afee6213-8eb7-4d5a-8f56-8b4b59b43217"],
+
+Cell["PlotTheme", "Subitem", "DetailsItem",ExpressionUUID->"ad83fcb4-8496-46d7-b566-a303f0a62f55"],
+
+Cell["$PlotTheme", "Subsubitem", "DetailsItem",ExpressionUUID->"c00c9fcb-2ffe-4f7e-8bce-0011ffa74a96"],
+
+Cell["QCurveStyle", "Subitem", "DetailsItem",ExpressionUUID->"725034c0-44f6-4ea6-84f7-bd672ca247da"],
+
+Cell["Automatic", "Subsubitem", "DetailsItem",ExpressionUUID->"013dfece-1aa8-46aa-9f99-a1a4451a0d9d"]
+}, Open  ]],
+
+Cell["QCombinedPlot can take Options from the following", "Item", "DetailsItem",ExpressionUUID->"7d57be11-5021-4028-a621-a59f9f8bd5dd"],
+
+Cell[CellGroupData[{
+
+Cell["ClippingStyle -> None", "Subitem", "DetailsItem",ExpressionUUID->"309fbefa-8fab-40a2-8ed4-c660250fc938"],
+
+Cell["ColorFunction -> Automatic", "Subitem", "DetailsItem",ExpressionUUID->"5a7b939a-7b44-48e1-861d-ee56081293dc"],
+
+Cell["ColorFunctionScaling -> True", "Subitem", "DetailsItem",ExpressionUUID->"6eeab6a7-d26c-4723-ba74-baa255e946e7"],
+
+Cell["Compiled -> True", "Subitem", "DetailsItem",ExpressionUUID->"24fd7317-009f-4b79-b5f3-1c675d56dc7e"],
+
+Cell["DataRange -> Automatic", "Subitem", "DetailsItem",ExpressionUUID->"9cfb2548-3703-4327-b84a-34ff8d74d7a6"],
+
+Cell["Filling -> None", "Subitem", "DetailsItem",ExpressionUUID->"3a76d3b2-1b2d-4749-82c4-f2affccd9708"],
+
+Cell["FillingStyle -> Automatic", "Subitem", "DetailsItem",ExpressionUUID->"9d20e5eb-9d2c-4ed4-a40f-c3cee92da145"],
+
+Cell["InterpolationOrder -> None", "Subitem", "DetailsItem",ExpressionUUID->"f2cf01f6-e976-43b8-98e5-f77d78f318d9"],
+
+Cell["Joined -> True", "Subitem", "DetailsItem",ExpressionUUID->"7a036f2e-e649-423f-a991-d1cd53efe7f4"],
+
+Cell["LabelingFunction -> Automatic", "Subitem", "DetailsItem",ExpressionUUID->"63a803e4-55a3-498d-9b40-c1522750e691"],
+
+Cell["LabelingSize -> Automatic", "Subitem", "DetailsItem",ExpressionUUID->"34e1b04a-a64c-454f-a14a-ae8a7777a544"],
+
+Cell["MaxPlotPoints -> Infinity", "Subitem", "DetailsItem",ExpressionUUID->"ed8636c4-4dfb-44da-96e0-630ebabc6214"],
+
+Cell["Mesh -> None", "Subitem", "DetailsItem",ExpressionUUID->"8bed6d17-d8b6-4688-aa46-7933a4ccbb30"],
+
+Cell["MeshFunctions -> {#1 & }", "Subitem", "DetailsItem",ExpressionUUID->"2e34db17-71eb-4de9-9201-eca948e42651"],
+
+Cell["MeshShading -> None", "Subitem", "DetailsItem",ExpressionUUID->"b5c873e3-7143-4cdb-a3b7-b7309d3bdbf9"],
+
+Cell["MeshStyle -> Automatic", "Subitem", "DetailsItem",ExpressionUUID->"487577c4-fa72-4bc6-94df-951ae802d4c4"],
+
+Cell["Opacity -> 1", "Subitem", "DetailsItem",ExpressionUUID->"88f60c4f-79cc-4369-b2e1-ff1d145fd933"],
+
+Cell["PlotLabels -> None", "Subitem", "DetailsItem",ExpressionUUID->"07f4ddb9-8d05-4fc5-83dc-be326a7a23ad"],
+
+Cell["PlotLayout -> \"Overlaid\"", "Subitem", "DetailsItem",ExpressionUUID->"b179effa-9693-40eb-b689-26a38e9e8124"],
+
+Cell["PlotLegends -> None", "Subitem", "DetailsItem",ExpressionUUID->"be8e1813-4f3d-4960-8e73-861115ffc240"],
+
+Cell["PlotMarkers -> None", "Subitem", "DetailsItem",ExpressionUUID->"726212f0-692e-428d-9a8b-4b11fc416b1b"],
+
+Cell["PlotStyle -> Automatic", "Subitem", "DetailsItem",ExpressionUUID->"913a5349-bf17-4ce0-8705-5d3f9122b626"],
+
+Cell["QBottomLine -> 0", "Subitem", "DetailsItem",ExpressionUUID->"34098e40-5598-41f6-ab3c-b2ed78046162"],
+
+Cell["QBrightness -> 1", "Subitem", "DetailsItem",ExpressionUUID->"33239360-c339-4be8-b37e-73879711d978"],
+
+Cell["QPlotDown -> False", "Subitem", "DetailsItem",ExpressionUUID->"263a508d-56c8-484d-abac-ce3cdc92b15f"],
+
+Cell["QSaturation -> 1", "Subitem", "DetailsItem",ExpressionUUID->"fca3de10-e606-4dbe-926c-eea5201511e7"],
+
+Cell["QShiftPlot -> 0", "Subitem", "DetailsItem",ExpressionUUID->"a8639eb8-2f5d-4e3e-b1d8-f59d3437742c"],
+
+Cell["QSquared -> False", "Subitem", "DetailsItem",ExpressionUUID->"345fbc48-c531-47a1-b01f-8fb665508315"],
+
+Cell["ScalingFunctions -> None", "Subitem", "DetailsItem",ExpressionUUID->"e1b7b728-8f56-4333-9a3c-5636432ebb97"],
+
+Cell["TargetUnits -> Automatic", "Subitem", "DetailsItem",ExpressionUUID->"c829ef60-cf64-4bce-b186-bf19c5cae738"],
+
+Cell["PerformanceGoal :> $PerformanceGoal", "Subitem", "DetailsItem",ExpressionUUID->"813bcb3b-2755-4164-927d-b01a41df6fe5"],
+
+Cell["PlotTheme :> $PlotTheme", "Subitem", "DetailsItem",ExpressionUUID->"7b7ad881-639a-435d-bf1d-0e2d65a61e49"],
+
+Cell["QCurveStyle -> Automatic", "Subitem", "DetailsItem",ExpressionUUID->"10fc996e-4764-4c99-8487-af875e109a9e"]
+}, Open  ]],
+
+Cell["QCombinedPlot has the following Attributes", "Item", "DetailsItem",ExpressionUUID->"67b24a04-d069-442a-8d0c-67813e70eaf4"],
+
+Cell["Protected", "Subitem", "DetailsItem",ExpressionUUID->"f9b3e95e-dbe5-4528-8e6e-80b6bdde8411"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Examples", "Subsection", "ExamplesSection",ExpressionUUID->"144d5630-8ee2-43e6-9c4e-be643c4b948e"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Examples", "Subsubsection", "ExamplesSection",ExpressionUUID->"be2e447e-ec81-442d-9353-bb37bc7906d0"],
+
+Cell["Load the package:", "Text", "ExamplesText",ExpressionUUID->"a0c4d671-7440-44a0-9c0e-05982acb95da"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<VQM`ArgColorPlot`\>\"", "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"e51a8f2c-e529-455a-a8d5-b035b5b8c937"],
+
+Cell["QCombinedPlot[{fun, fun}, {x, xmi, xma}, opt]", "Text", "ExamplesText",ExpressionUUID->"c30ceb67-33ca-4eac-a26a-089125b569fa"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"func1", ",", " ", "func2"}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", "xmin", ",", " ", "xmax"}], "}"}]}], "]"}]], "Code",\
+ "ExamplesInput",ExpressionUUID->"c7f63aad-e241-4534-845b-4189d00e5bea"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Options", "Subsubsection", "ExamplesSection",ExpressionUUID->"01d8cc51-6962-4645-bf18-e9b71d18454c"],
+
+Cell[CellGroupData[{
+
+Cell["ClippingStyle", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"b7ee6418-ad29-4c4d-b513-c01cb9feccd2"],
+
+Cell["Possible option values for ClippingStyle include:", "Text", "ExamplesText",ExpressionUUID->"1e2659ba-a6e0-4cce-9f60-a548efc59232"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"ClippingStyle", " ", "->", " ", "None"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"84717fce-f5de-4ea9-88db-b3bf87e11d18"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["ColorFunction", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"648152b8-ca6e-4055-98ae-2d2c99773504"],
+
+Cell["Possible option values for ColorFunction include:", "Text", "ExamplesText",ExpressionUUID->"00f22f1b-4582-4140-a28a-54e57aad5ffe"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"ColorFunction", " ", "->", " ", "Automatic"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"7e029485-590f-4669-9583-9e0a7f6945a1"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["ColorFunctionScaling", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"42fe0fe0-fbc4-4b93-8da6-78f97f7ca004"],
+
+Cell["Possible option values for ColorFunctionScaling include:", "Text", "ExamplesText",ExpressionUUID->"227a7ae0-9b92-4c9b-8e20-578d436acda9"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"ColorFunctionScaling", " ", "->", " ", "True"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"0246d176-e9d0-46fb-a84f-f1e3ed2347fe"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Compiled", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"0f8f6552-1f6b-4254-9236-6a8567038676"],
+
+Cell["Possible option values for Compiled include:", "Text", "ExamplesText",ExpressionUUID->"c4981912-a899-43ad-8557-176734d7af92"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"Compiled", " ", "->", " ", "True"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"7f15fc1b-d36b-4c92-8e0d-fa473c78e190"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["DataRange", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"08e2eb75-33ec-4bf0-ab67-dc96e93f22b0"],
+
+Cell["Possible option values for DataRange include:", "Text", "ExamplesText",ExpressionUUID->"f60f65ad-46c2-4bb5-87f6-78793f8f7450"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"DataRange", " ", "->", " ", "Automatic"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"8d5bad64-8f38-4f31-abae-e1ac772b57d2"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Filling", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"ac3ff470-838e-4848-a156-0cd65b757bfb"],
+
+Cell["Possible option values for Filling include:", "Text", "ExamplesText",ExpressionUUID->"b2b7bed7-8c84-41e0-be2b-31e0decdfa1a"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"Filling", " ", "->", " ", "None"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"e20dd61e-01d0-4afe-8c67-f3dca53f5f10"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["FillingStyle", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"4b7b4201-5f6f-4303-9416-d0701e296b6a"],
+
+Cell["Possible option values for FillingStyle include:", "Text", "ExamplesText",ExpressionUUID->"a701b5f2-a343-455b-acfb-597747f1bc3d"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"FillingStyle", " ", "->", " ", "Automatic"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"22be9a8f-e5b8-43ab-ba81-39b3e849bc28"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["InterpolationOrder", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"6c3375aa-f895-4925-9192-92f2c6066669"],
+
+Cell["Possible option values for InterpolationOrder include:", "Text", "ExamplesText",ExpressionUUID->"045c2fa8-e85f-4c94-9988-fb0c0d3564e5"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"InterpolationOrder", " ", "->", " ", "None"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"3c7d9832-8f1b-4058-bd66-6eae1e4b0289"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Joined", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"cf7ccd3a-b1b4-4ce2-bbd9-e5db9a2af2e6"],
+
+Cell["Possible option values for Joined include:", "Text", "ExamplesText",ExpressionUUID->"a4bec147-bf5c-4b4a-9515-b5f5d27e70df"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"Joined", " ", "->", " ", "True"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"8e90a77d-e126-48e7-b583-40b6e1914274"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["LabelingFunction", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"cb678d38-bb1a-4252-8ab0-05c988f72ed0"],
+
+Cell["Possible option values for LabelingFunction include:", "Text", "ExamplesText",ExpressionUUID->"397d6cdb-1570-4da1-b11c-64d48fc326dc"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"LabelingFunction", " ", "->", " ", "Automatic"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"504481d9-24b0-4442-9bf4-d160d4ada8aa"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["LabelingSize", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"846ec419-4309-49c2-8d0b-f7e371195070"],
+
+Cell["Possible option values for LabelingSize include:", "Text", "ExamplesText",ExpressionUUID->"8a47c4af-dcd1-49e1-b800-412453e0cfab"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"LabelingSize", " ", "->", " ", "Automatic"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"f17dfae7-3113-460d-9d52-60fdebac0379"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["MaxPlotPoints", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"57700f8a-2021-4ea1-8f75-e862527384aa"],
+
+Cell["Possible option values for MaxPlotPoints include:", "Text", "ExamplesText",ExpressionUUID->"e20c1cd3-c1c2-4a17-a68c-086b8b299439"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"MaxPlotPoints", " ", "->", " ", "Infinity"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"a9e93f94-910b-42ee-aff7-59fb8f2eb663"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Mesh", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"e89f7ff9-ea39-4aff-9527-d26411d9740e"],
+
+Cell["Possible option values for Mesh include:", "Text", "ExamplesText",ExpressionUUID->"c071e4bc-4f4d-4fb7-b777-5045c8367bac"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"Mesh", " ", "->", " ", "None"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"b6fe22fb-3d0a-4905-89f8-3de871712304"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["MeshFunctions", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"98f6df26-84b1-4c1b-a656-ecddc38a4d24"],
+
+Cell["Possible option values for MeshFunctions include:", "Text", "ExamplesText",ExpressionUUID->"588334ca-abe5-4d3d-a7e5-9c1cd5236d15"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"MeshFunctions", " ", "->", " ", 
+   RowBox[{"{", 
+    RowBox[{"#1", " ", "&"}], " ", "}"}]}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"b50778f4-bcd6-4c73-bebb-6578bb586701"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["MeshShading", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"012ad205-6eeb-47f4-8f66-1c22b25c4d80"],
+
+Cell["Possible option values for MeshShading include:", "Text", "ExamplesText",ExpressionUUID->"1c3313ae-5564-457c-86cd-2adf2e6f0cc1"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"MeshShading", " ", "->", " ", "None"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"647f442b-6f20-4ff6-81b2-2b852e44576a"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["MeshStyle", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"354fcac8-b252-4b0b-9b21-fd3410b5025e"],
+
+Cell["Possible option values for MeshStyle include:", "Text", "ExamplesText",ExpressionUUID->"919f84fc-bb0c-4362-a66b-7c232d228a3c"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"MeshStyle", " ", "->", " ", "Automatic"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"5b50431d-fd6c-4b4a-83f0-949c7e0ff489"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Opacity", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"174e8c8d-b40c-420a-b74f-cbad4312e92e"],
+
+Cell["Possible option values for Opacity include:", "Text", "ExamplesText",ExpressionUUID->"bbf6d2d9-3a0d-4021-bc63-e68590d03b20"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"Opacity", " ", "->", " ", "1"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"069878a8-cb4a-4691-b2f0-ee854acf2f3e"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["PlotLabels", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"a1c5c285-e7ef-4357-be3d-a24c946e3e3f"],
+
+Cell["Possible option values for PlotLabels include:", "Text", "ExamplesText",ExpressionUUID->"976db94c-bb43-4d9a-9c35-ce50c923231c"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"PlotLabels", " ", "->", " ", "None"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"60508cd7-6145-432e-ac62-c07dfc6548d7"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["PlotLayout", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"0a8c9dc4-c86e-4f4b-bf8e-22ca578ff3e8"],
+
+Cell["Possible option values for PlotLayout include:", "Text", "ExamplesText",ExpressionUUID->"ada7b4a0-6d57-4c4c-9a84-348d5b5d591a"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"PlotLayout", " ", "->", " ", "\"\<Overlaid\>\""}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"68dce55e-bed2-4a12-ad62-56c7eb950259"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["PlotLegends", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"75a099a4-a686-4e9f-aeba-bfd60e588e6d"],
+
+Cell["Possible option values for PlotLegends include:", "Text", "ExamplesText",ExpressionUUID->"b68f69e4-3649-4e84-b329-a430b8879992"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"PlotLegends", " ", "->", " ", "None"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"e391846b-4252-4b6f-935f-8908c7af4df8"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["PlotMarkers", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"dceb86f1-01e1-4891-964d-24667e908055"],
+
+Cell["Possible option values for PlotMarkers include:", "Text", "ExamplesText",ExpressionUUID->"8a8a1d10-d544-44b5-ada9-ffb274688db8"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"PlotMarkers", " ", "->", " ", "None"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"d649cc96-b97a-4b82-b2e7-73da4548fd6f"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["PlotStyle", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"b7769745-24b1-4b5c-9a45-e7a07a575146"],
+
+Cell["Possible option values for PlotStyle include:", "Text", "ExamplesText",ExpressionUUID->"9eab2e2e-6c47-440b-b7c9-f23ed7f6f6c6"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"PlotStyle", " ", "->", " ", "Automatic"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"e85b6042-1eab-4733-ade7-daaa1c78c0ce"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["QBottomLine", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"4f346156-1632-4fa0-ae4b-cbeae49b868b"],
+
+Cell["Possible option values for QBottomLine include:", "Text", "ExamplesText",ExpressionUUID->"370b7f0e-1c9e-450d-af47-143ea455d11d"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"QBottomLine", " ", "->", " ", "0"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"bb680102-9a55-4a39-aa94-0789b44dd297"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["QBrightness", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"5a8200ce-92f3-49b8-8feb-fb0797804e67"],
+
+Cell["Possible option values for QBrightness include:", "Text", "ExamplesText",ExpressionUUID->"277dd7a8-1969-4596-b1ce-16e031e3d403"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"QBrightness", " ", "->", " ", "1"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"f65a620d-5dc2-4c2f-8957-721f427db4e8"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["QPlotDown", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"02412e63-7fdf-4481-b630-471407981ebc"],
+
+Cell["Possible option values for QPlotDown include:", "Text", "ExamplesText",ExpressionUUID->"89380da7-e6c1-4b94-9474-0f4ad11ca638"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"QPlotDown", " ", "->", " ", "False"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"cfd22b88-250b-40d2-963b-9636cec020ff"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["QSaturation", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"b8485873-7773-4bc4-b603-3fb864015f8a"],
+
+Cell["Possible option values for QSaturation include:", "Text", "ExamplesText",ExpressionUUID->"04683b36-0c82-401c-8486-7a5b1f6a326c"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"QSaturation", " ", "->", " ", "1"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"f4ee0633-4cea-4407-b295-33ada923f6b4"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["QShiftPlot", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"da5f6e0b-fd3d-435b-aef6-db2d2e458db8"],
+
+Cell["Possible option values for QShiftPlot include:", "Text", "ExamplesText",ExpressionUUID->"1d24cc9d-4b8b-4d33-848f-dc6f33592815"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"QShiftPlot", " ", "->", " ", "0"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"5ae65426-b27a-49eb-b646-47cfbfbf9b69"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["QSquared", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"8de09f83-70e7-4f69-96df-9e7e6854fdfa"],
+
+Cell["Possible option values for QSquared include:", "Text", "ExamplesText",ExpressionUUID->"290e273b-a08d-416e-9949-ab1c57bfd36e"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"QSquared", " ", "->", " ", "False"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"bd1b279b-0a59-4f78-bc1f-cd9b542d7c0e"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["ScalingFunctions", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"276f38b5-4eea-499e-a146-a70e1da5b7e0"],
+
+Cell["Possible option values for ScalingFunctions include:", "Text", "ExamplesText",ExpressionUUID->"a65ff683-d3be-4fe4-bb44-2bbeead23c40"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"ScalingFunctions", " ", "->", " ", "None"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"54972e9c-9cfe-45c8-9e67-e699639a3968"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["TargetUnits", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"3bcc4877-3b2b-4ae2-ad95-7197f8304bb7"],
+
+Cell["Possible option values for TargetUnits include:", "Text", "ExamplesText",ExpressionUUID->"4f3777f0-c58f-4bd9-b492-71cd8556153e"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"TargetUnits", " ", "->", " ", "Automatic"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"50843dd2-83df-429c-b841-571facf61883"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["PerformanceGoal", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"b9efe16c-ea5c-4d03-802a-a2ff0630496d"],
+
+Cell["Possible option values for PerformanceGoal include:", "Text", "ExamplesText",ExpressionUUID->"61eb990c-5a96-43cb-b358-41ad1993b734"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"PerformanceGoal", " ", ":>", " ", "$PerformanceGoal"}], 
+  "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"de5563f8-eeb4-4ae1-ac6a-1c9978365707"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["PlotTheme", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"1194c375-491f-45c6-9b24-d32e1e6ed194"],
+
+Cell["Possible option values for PlotTheme include:", "Text", "ExamplesText",ExpressionUUID->"dccf4bad-7d4b-473d-9973-fbc2832eedeb"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"PlotTheme", " ", ":>", " ", "$PlotTheme"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"c76b8678-99bf-42c2-9ae5-21b8368fd9c1"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["QCurveStyle", "Subsubsubsection", "ExamplesSection",ExpressionUUID->"cbc54582-cacf-411e-a128-eb8b3b0d88ec"],
+
+Cell["Possible option values for QCurveStyle include:", "Text", "ExamplesText",ExpressionUUID->"fa2db810-a7fb-4fa9-92f8-8221180b990b"],
+
+Cell[BoxData[
+ RowBox[{"QCombinedPlot", "[", 
+  RowBox[{"QCurveStyle", " ", "->", " ", "Automatic"}], "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"83fb804e-51dd-4d76-b2a3-b9d920bb2dd6"]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Definitions", "Subsubsection", "ExamplesSection",ExpressionUUID->"9e1021a8-cf17-41d4-9a46-1e9e1ccfe4c2"],
+
+Cell["Examine all definitions:", "Text", "ExamplesText",ExpressionUUID->"b673dcd9-e651-42a2-833a-8454defb382e"],
+
+Cell[BoxData[
+ RowBox[{"GeneralUtilities`PrintDefinitionsLocal", "[", "QCombinedPlot", 
+  "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"56ed12af-a858-41e6-a2dd-9d5d6af83506"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["See Also", "Subsection", "SeeAlso",ExpressionUUID->"c8af2132-5e2a-48f4-bc6b-255c95908a35"],
+
+Cell[TextData[{
+ ButtonBox["QArgColorPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QArgColorPlot"],
+ " | ",
+ ButtonBox["QBottomLine",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QBottomLine"],
+ " | ",
+ ButtonBox["QBrightness",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QBrightness"],
+ " | ",
+ ButtonBox["QCurveStyle",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QCurveStyle"],
+ " | ",
+ ButtonBox["QHorizontalRange",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QHorizontalRange"],
+ " | ",
+ ButtonBox["QListArgColorPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QListArgColorPlot"],
+ " | ",
+ ButtonBox["QListCombinedPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QListCombinedPlot"],
+ " | ",
+ ButtonBox["QListSpinorCombinedPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QListSpinorCombinedPlot"],
+ " | ",
+ ButtonBox["QListSpinorPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QListSpinorPlot"],
+ " | ",
+ ButtonBox["QNiceTicks",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QNiceTicks"],
+ " | ",
+ ButtonBox["QPlotDown",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QPlotDown"],
+ " | ",
+ ButtonBox["QSaturation",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QSaturation"],
+ " | ",
+ ButtonBox["QShiftPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QShiftPlot"],
+ " | ",
+ ButtonBox["QSpinorCombinedPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QSpinorCombinedPlot"],
+ " | ",
+ ButtonBox["QSpinorPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QSpinorPlot"],
+ " | ",
+ ButtonBox["QSquared",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QSquared"]
+}], "Text",ExpressionUUID->"77ca662a-e5b0-4873-b68e-38d1567aa6a1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Guides", "Subsection", "Related",ExpressionUUID->"c7115e83-236c-4b4e-b526-e3dabad14a19"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[ButtonBox["Guide 1",
+ BaseStyle->"Link",
+ ButtonData->"paclet:Pkg/guide/Guide1"]], "Item",ExpressionUUID->"ea442138-\
+312f-406c-91f6-4725784c53e2"],
+
+Cell[TextData[ButtonBox["Guide 2",
+ BaseStyle->"Link",
+ ButtonData->"paclet:Pkg/guide/Guide2"]], "Item",ExpressionUUID->"3e9b7e01-\
+dd2c-45aa-9e1b-44b91534b0ea"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Links", "Subsection", "RelatedLinks",ExpressionUUID->"0b323751-47eb-46f0-bb59-b43e24ca6d97"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[ButtonBox["Link 1",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://google.com"], None},
+ ButtonNote->"Link 1"]], "Item",ExpressionUUID->"59a40bfb-d593-4de9-a6e9-\
+8ec5582f010d"],
+
+Cell[TextData[ButtonBox["Link 2",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://paclets.github.io/PacletServer"], None},
+ ButtonNote->"Link 2"]], "Item",ExpressionUUID->"62f73580-b254-4932-bbe1-\
+f4a68bbc20cc"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["Made with SimpleDocs", "Text", "Footer",ExpressionUUID->"08503f82-e41b-472b-a912-c25be2758eb5"]
+}, Open  ]]
+},
+ScreenStyleEnvironment->"Editing",
+WindowSize->{775, 872},
+WindowMargins->{{1244, Automatic}, {Automatic, 254}},
+TaggingRules->{
+ "Metadata" -> {
+   "built" -> "{2019, 1, 9, 16, 6, 4.2238673}", "history" -> {"11.3", "", ""},
+     "context" -> "VQM`ArgColorPlot`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "QCombinedPlot", "language" -> "en", "paclet" -> 
+    "Mathematica", "status" -> "None", "summary" -> "", "synonyms" -> {}, 
+    "tabletags" -> {}, "title" -> "QCombinedPlot", "titlemodifier" -> "", 
+    "windowtitle" -> "QCombinedPlot", "type" -> "Symbol", "uri" -> 
+    "VQM/ref/QCombinedPlot"}, "ColorType" -> "SymbolColor", 
+  "SimpleDocs" -> {
+   "MarkdownAutosave" -> False, "DocumentationAutosave" -> False, "Paclet" -> 
+    "VQM"}, "Paclet" -> "VQM"},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->FrontEnd`FileName[{"SimpleDocs"}, "SimpleDocs.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 594, 14, 165, "Metadata",ExpressionUUID->"01c5a453-0d36-40e9-ada6-20b43ebe3095"],
+Cell[1155, 36, 105, 1, 43, "TitleBar",ExpressionUUID->"33d788c9-48ac-494e-ba76-0c30ae9e8a14",
+ CellID->621773810],
+Cell[CellGroupData[{
+Cell[1285, 41, 101, 0, 53, "Section",ExpressionUUID->"215ec60f-f256-440a-9c8e-b90bef60ef88"],
+Cell[1389, 43, 79, 0, 11, "UsageSection",ExpressionUUID->"2f035430-e4b0-416d-a573-def8c5bac8b9"],
+Cell[1471, 45, 315, 8, 31, "Code",ExpressionUUID->"c1897e98-325c-4729-a081-888533deefe1"],
+Cell[1789, 55, 105, 0, 37, "Text",ExpressionUUID->"2dfa51d6-3862-4eb1-9d91-f1df10ff78c4"],
+Cell[1897, 57, 85, 0, 30, "UsageSectionFooter",ExpressionUUID->"8dbe1ec3-dd99-4097-9e2d-7db1ada4f077"],
+Cell[CellGroupData[{
+Cell[2007, 61, 102, 0, 33, "Subsection",ExpressionUUID->"1e21c504-88ca-45ef-9747-8be56da70db8"],
+Cell[CellGroupData[{
+Cell[2134, 65, 118, 0, 70, "Item",ExpressionUUID->"e909815e-543a-485b-bd51-4474190f275a"],
+Cell[2255, 67, 125, 0, 70, "Item",ExpressionUUID->"c8573b38-ed9c-45a6-9f57-abccac68344b"],
+Cell[CellGroupData[{
+Cell[2405, 71, 102, 0, 70, "Subitem",ExpressionUUID->"4be96c0d-8fb3-4020-9bc2-73d0c69173ae"],
+Cell[2510, 73, 96, 0, 70, "Subsubitem",ExpressionUUID->"b446588e-2da1-47b0-8a72-f78d2a9d29b6"],
+Cell[2609, 75, 102, 0, 70, "Subitem",ExpressionUUID->"c83463d6-0569-4ca9-a278-28cbd1e8ce25"],
+Cell[2714, 77, 101, 0, 70, "Subsubitem",ExpressionUUID->"6a515914-0e2c-4272-b742-7c53c92550f0"],
+Cell[2818, 79, 109, 0, 70, "Subitem",ExpressionUUID->"4afe0347-989e-4a3b-af95-caab82966b1c"],
+Cell[2930, 81, 96, 0, 70, "Subsubitem",ExpressionUUID->"c346295f-ca37-4c13-9557-2f9c4edd0aa9"],
+Cell[3029, 83, 97, 0, 70, "Subitem",ExpressionUUID->"5f39cbfc-32d1-4507-9cac-2ed25b57084e"],
+Cell[3129, 85, 96, 0, 70, "Subsubitem",ExpressionUUID->"9b0a1cd6-975a-48e0-9e07-e50ba7ee2835"],
+Cell[3228, 87, 98, 0, 70, "Subitem",ExpressionUUID->"33089e9c-a838-417f-87aa-91565dca379d"],
+Cell[3329, 89, 101, 0, 70, "Subsubitem",ExpressionUUID->"b50fd3ca-1ea5-45a6-bf4f-517651d3f5be"],
+Cell[3433, 91, 96, 0, 70, "Subitem",ExpressionUUID->"b40d3ebb-989a-4761-95e6-eda07f56146e"],
+Cell[3532, 93, 96, 0, 70, "Subsubitem",ExpressionUUID->"a400f66c-c850-4368-b068-976627219ff8"],
+Cell[3631, 95, 101, 0, 70, "Subitem",ExpressionUUID->"fc923ef1-a5ef-46e6-be9f-b9bfedf81267"],
+Cell[3735, 97, 101, 0, 70, "Subsubitem",ExpressionUUID->"c9e1bf36-9bc6-4a69-aaae-733ffe98d784"],
+Cell[3839, 99, 107, 0, 70, "Subitem",ExpressionUUID->"5748b035-521a-4d72-971c-88c7caf9ffc4"],
+Cell[3949, 101, 96, 0, 70, "Subsubitem",ExpressionUUID->"c9886e01-cbb0-4a99-b40c-7fbde9cea22e"],
+Cell[4048, 103, 95, 0, 70, "Subitem",ExpressionUUID->"f986f47b-0b0a-4506-8219-1e437e35755a"],
+Cell[4146, 105, 96, 0, 70, "Subsubitem",ExpressionUUID->"5f6f871e-926d-4628-908a-fe611ec65c6a"],
+Cell[4245, 107, 105, 0, 70, "Subitem",ExpressionUUID->"d1d97da2-d962-4b1d-98f5-d75d8a436c06"],
+Cell[4353, 109, 101, 0, 70, "Subsubitem",ExpressionUUID->"598b9148-e5ba-4ec9-a7ea-0926a5ea6cf2"],
+Cell[4457, 111, 101, 0, 70, "Subitem",ExpressionUUID->"8fa0a254-0616-43eb-8450-9ab56747d3fd"],
+Cell[4561, 113, 101, 0, 70, "Subsubitem",ExpressionUUID->"ac25327b-76d9-4587-ad97-dd6d38928477"],
+Cell[4665, 115, 102, 0, 70, "Subitem",ExpressionUUID->"2f6b8f2c-d63a-4b13-8cf6-0033ab2167b8"],
+Cell[4770, 117, 100, 0, 70, "Subsubitem",ExpressionUUID->"c62b3d26-0a71-4a0b-92f0-c7a374cd735d"],
+Cell[4873, 119, 93, 0, 70, "Subitem",ExpressionUUID->"7463acf9-2932-4f59-b6cb-66548d2b9360"],
+Cell[4969, 121, 96, 0, 70, "Subsubitem",ExpressionUUID->"9a351638-e59e-4507-86f8-4d3ba1f81cc7"],
+Cell[5068, 123, 102, 0, 70, "Subitem",ExpressionUUID->"1ab3bc82-6d9b-447b-957e-b0dda9e9f138"],
+Cell[5173, 125, 99, 0, 70, "Subsubitem",ExpressionUUID->"4d431981-2595-46e7-8377-8442dbb4b0d0"],
+Cell[5275, 127, 100, 0, 70, "Subitem",ExpressionUUID->"2090e591-4aa1-4139-99bd-2cc9a5689603"],
+Cell[5378, 129, 96, 0, 70, "Subsubitem",ExpressionUUID->"92217f10-84eb-4a9c-b61f-0585afcef209"],
+Cell[5477, 131, 98, 0, 70, "Subitem",ExpressionUUID->"3b64d8f1-0ea8-47c4-80d4-0cc9f32d6180"],
+Cell[5578, 133, 101, 0, 70, "Subsubitem",ExpressionUUID->"687a8a12-6a88-4ee3-93b4-c5b75c74695d"],
+Cell[5682, 135, 96, 0, 70, "Subitem",ExpressionUUID->"0f7f8763-233e-411a-be6e-aabcd6338673"],
+Cell[5781, 137, 93, 0, 70, "Subsubitem",ExpressionUUID->"ba5f3be3-8a80-4bbd-9b69-1aaa5dddc971"],
+Cell[5877, 139, 99, 0, 70, "Subitem",ExpressionUUID->"679e75fa-d158-4ebb-8154-71edd9f17acc"],
+Cell[5979, 141, 96, 0, 70, "Subsubitem",ExpressionUUID->"a746c59d-25c7-444e-80ee-3a80346adf3c"],
+Cell[6078, 143, 99, 0, 70, "Subitem",ExpressionUUID->"7a8da35c-af8e-40a4-9a0b-1f0351a62a60"],
+Cell[6180, 145, 104, 0, 70, "Subsubitem",ExpressionUUID->"0f37cdc3-d10f-48ab-ac43-af709669d0bd"],
+Cell[6287, 147, 100, 0, 70, "Subitem",ExpressionUUID->"04e4a96e-3d3b-4bfe-b9f9-39aa28aa1b66"],
+Cell[6390, 149, 96, 0, 70, "Subsubitem",ExpressionUUID->"b96a25e3-1ae0-43d2-a2ae-1a9391ce3809"],
+Cell[6489, 151, 100, 0, 70, "Subitem",ExpressionUUID->"98b3157f-cfe3-4b50-90db-1598d089c7b4"],
+Cell[6592, 153, 96, 0, 70, "Subsubitem",ExpressionUUID->"baf38256-941c-4a9d-9335-1db1db67e6b9"],
+Cell[6691, 155, 98, 0, 70, "Subitem",ExpressionUUID->"0b477b3d-532e-4a14-a4bd-2ad386895ecd"],
+Cell[6792, 157, 101, 0, 70, "Subsubitem",ExpressionUUID->"d87437b5-d0f9-462c-b051-bd0e86223c4d"],
+Cell[6896, 159, 100, 0, 70, "Subitem",ExpressionUUID->"63d50d30-9f62-4bfe-9bfb-2f444fc0eeb7"],
+Cell[6999, 161, 93, 0, 70, "Subsubitem",ExpressionUUID->"75df5b12-d577-4fca-b003-ac36e7e99129"],
+Cell[7095, 163, 100, 0, 70, "Subitem",ExpressionUUID->"8e31e6d7-1993-4d4f-b675-393394ad9852"],
+Cell[7198, 165, 93, 0, 70, "Subsubitem",ExpressionUUID->"502b2567-4af9-4a83-8250-a207d82297e2"],
+Cell[7294, 167, 98, 0, 70, "Subitem",ExpressionUUID->"793c1710-fdce-4dbb-9fe5-6b3e42d86c20"],
+Cell[7395, 169, 97, 0, 70, "Subsubitem",ExpressionUUID->"9afa97b4-2da0-4f0b-bea8-c01a131942d6"],
+Cell[7495, 171, 100, 0, 70, "Subitem",ExpressionUUID->"77db8be4-05f2-4cf1-a106-9c778b0967b8"],
+Cell[7598, 173, 93, 0, 70, "Subsubitem",ExpressionUUID->"1d75db58-db30-460e-9506-3e76f3ca58cf"],
+Cell[7694, 175, 99, 0, 70, "Subitem",ExpressionUUID->"c15c4aab-a131-4251-97d9-4b053a86673c"],
+Cell[7796, 177, 93, 0, 70, "Subsubitem",ExpressionUUID->"33deb9de-ea1b-4321-9399-fb9b0af151c3"],
+Cell[7892, 179, 97, 0, 70, "Subitem",ExpressionUUID->"9804f784-6e49-422a-945d-af10f302bf01"],
+Cell[7992, 181, 97, 0, 70, "Subsubitem",ExpressionUUID->"b199d336-fbca-4ad3-83ae-0a06927963d3"],
+Cell[8092, 183, 105, 0, 70, "Subitem",ExpressionUUID->"27dd4360-315e-4495-95d1-a583918db875"],
+Cell[8200, 185, 96, 0, 70, "Subsubitem",ExpressionUUID->"eb78baac-ea14-4330-9fad-32a78984d8e3"],
+Cell[8299, 187, 100, 0, 70, "Subitem",ExpressionUUID->"17b4b14a-ede6-4f54-8039-82aa0ce0d4ff"],
+Cell[8402, 189, 101, 0, 70, "Subsubitem",ExpressionUUID->"d3cdfd5a-f811-4e34-8938-0de8a38b9f42"],
+Cell[8506, 191, 104, 0, 70, "Subitem",ExpressionUUID->"32a26872-80e3-4dd0-8c9a-e9380f142332"],
+Cell[8613, 193, 108, 0, 70, "Subsubitem",ExpressionUUID->"afee6213-8eb7-4d5a-8f56-8b4b59b43217"],
+Cell[8724, 195, 98, 0, 70, "Subitem",ExpressionUUID->"ad83fcb4-8496-46d7-b566-a303f0a62f55"],
+Cell[8825, 197, 102, 0, 70, "Subsubitem",ExpressionUUID->"c00c9fcb-2ffe-4f7e-8bce-0011ffa74a96"],
+Cell[8930, 199, 100, 0, 70, "Subitem",ExpressionUUID->"725034c0-44f6-4ea6-84f7-bd672ca247da"],
+Cell[9033, 201, 101, 0, 70, "Subsubitem",ExpressionUUID->"013dfece-1aa8-46aa-9f99-a1a4451a0d9d"]
+}, Open  ]],
+Cell[9149, 204, 135, 0, 70, "Item",ExpressionUUID->"7d57be11-5021-4028-a621-a59f9f8bd5dd"],
+Cell[CellGroupData[{
+Cell[9309, 208, 110, 0, 70, "Subitem",ExpressionUUID->"309fbefa-8fab-40a2-8ed4-c660250fc938"],
+Cell[9422, 210, 115, 0, 70, "Subitem",ExpressionUUID->"5a7b939a-7b44-48e1-861d-ee56081293dc"],
+Cell[9540, 212, 117, 0, 70, "Subitem",ExpressionUUID->"6eeab6a7-d26c-4723-ba74-baa255e946e7"],
+Cell[9660, 214, 105, 0, 70, "Subitem",ExpressionUUID->"24fd7317-009f-4b79-b5f3-1c675d56dc7e"],
+Cell[9768, 216, 111, 0, 70, "Subitem",ExpressionUUID->"9cfb2548-3703-4327-b84a-34ff8d74d7a6"],
+Cell[9882, 218, 104, 0, 70, "Subitem",ExpressionUUID->"3a76d3b2-1b2d-4749-82c4-f2affccd9708"],
+Cell[9989, 220, 114, 0, 70, "Subitem",ExpressionUUID->"9d20e5eb-9d2c-4ed4-a40f-c3cee92da145"],
+Cell[10106, 222, 115, 0, 70, "Subitem",ExpressionUUID->"f2cf01f6-e976-43b8-98e5-f77d78f318d9"],
+Cell[10224, 224, 103, 0, 70, "Subitem",ExpressionUUID->"7a036f2e-e649-423f-a991-d1cd53efe7f4"],
+Cell[10330, 226, 118, 0, 70, "Subitem",ExpressionUUID->"63a803e4-55a3-498d-9b40-c1522750e691"],
+Cell[10451, 228, 114, 0, 70, "Subitem",ExpressionUUID->"34e1b04a-a64c-454f-a14a-ae8a7777a544"],
+Cell[10568, 230, 114, 0, 70, "Subitem",ExpressionUUID->"ed8636c4-4dfb-44da-96e0-630ebabc6214"],
+Cell[10685, 232, 101, 0, 70, "Subitem",ExpressionUUID->"8bed6d17-d8b6-4688-aa46-7933a4ccbb30"],
+Cell[10789, 234, 113, 0, 70, "Subitem",ExpressionUUID->"2e34db17-71eb-4de9-9201-eca948e42651"],
+Cell[10905, 236, 108, 0, 70, "Subitem",ExpressionUUID->"b5c873e3-7143-4cdb-a3b7-b7309d3bdbf9"],
+Cell[11016, 238, 111, 0, 70, "Subitem",ExpressionUUID->"487577c4-fa72-4bc6-94df-951ae802d4c4"],
+Cell[11130, 240, 101, 0, 70, "Subitem",ExpressionUUID->"88f60c4f-79cc-4369-b2e1-ff1d145fd933"],
+Cell[11234, 242, 107, 0, 70, "Subitem",ExpressionUUID->"07f4ddb9-8d05-4fc5-83dc-be326a7a23ad"],
+Cell[11344, 244, 115, 0, 70, "Subitem",ExpressionUUID->"b179effa-9693-40eb-b689-26a38e9e8124"],
+Cell[11462, 246, 108, 0, 70, "Subitem",ExpressionUUID->"be8e1813-4f3d-4960-8e73-861115ffc240"],
+Cell[11573, 248, 108, 0, 70, "Subitem",ExpressionUUID->"726212f0-692e-428d-9a8b-4b11fc416b1b"],
+Cell[11684, 250, 111, 0, 70, "Subitem",ExpressionUUID->"913a5349-bf17-4ce0-8705-5d3f9122b626"],
+Cell[11798, 252, 105, 0, 70, "Subitem",ExpressionUUID->"34098e40-5598-41f6-ab3c-b2ed78046162"],
+Cell[11906, 254, 105, 0, 70, "Subitem",ExpressionUUID->"33239360-c339-4be8-b37e-73879711d978"],
+Cell[12014, 256, 107, 0, 70, "Subitem",ExpressionUUID->"263a508d-56c8-484d-abac-ce3cdc92b15f"],
+Cell[12124, 258, 105, 0, 70, "Subitem",ExpressionUUID->"fca3de10-e606-4dbe-926c-eea5201511e7"],
+Cell[12232, 260, 104, 0, 70, "Subitem",ExpressionUUID->"a8639eb8-2f5d-4e3e-b1d8-f59d3437742c"],
+Cell[12339, 262, 106, 0, 70, "Subitem",ExpressionUUID->"345fbc48-c531-47a1-b01f-8fb665508315"],
+Cell[12448, 264, 113, 0, 70, "Subitem",ExpressionUUID->"e1b7b728-8f56-4333-9a3c-5636432ebb97"],
+Cell[12564, 266, 113, 0, 70, "Subitem",ExpressionUUID->"c829ef60-cf64-4bce-b186-bf19c5cae738"],
+Cell[12680, 268, 124, 0, 70, "Subitem",ExpressionUUID->"813bcb3b-2755-4164-927d-b01a41df6fe5"],
+Cell[12807, 270, 112, 0, 70, "Subitem",ExpressionUUID->"7b7ad881-639a-435d-bf1d-0e2d65a61e49"],
+Cell[12922, 272, 113, 0, 70, "Subitem",ExpressionUUID->"10fc996e-4764-4c99-8487-af875e109a9e"]
+}, Open  ]],
+Cell[13050, 275, 128, 0, 70, "Item",ExpressionUUID->"67b24a04-d069-442a-8d0c-67813e70eaf4"],
+Cell[13181, 277, 98, 0, 70, "Subitem",ExpressionUUID->"f9b3e95e-dbe5-4528-8e6e-80b6bdde8411"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[13328, 283, 104, 0, 33, "Subsection",ExpressionUUID->"144d5630-8ee2-43e6-9c4e-be643c4b948e"],
+Cell[CellGroupData[{
+Cell[13457, 287, 113, 0, 32, "Subsubsection",ExpressionUUID->"be2e447e-ec81-442d-9353-bb37bc7906d0"],
+Cell[13573, 289, 104, 0, 34, "Text",ExpressionUUID->"a0c4d671-7440-44a0-9c0e-05982acb95da"],
+Cell[13680, 291, 155, 2, 34, "Code",ExpressionUUID->"e51a8f2c-e529-455a-a8d5-b035b5b8c937"],
+Cell[13838, 295, 132, 0, 34, "Text",ExpressionUUID->"c30ceb67-33ca-4eac-a26a-089125b569fa"],
+Cell[13973, 297, 304, 7, 34, "Code",ExpressionUUID->"c7f63aad-e241-4534-845b-4189d00e5bea"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14314, 309, 106, 0, 32, "Subsubsection",ExpressionUUID->"01d8cc51-6962-4645-bf18-e9b71d18454c"],
+Cell[CellGroupData[{
+Cell[14445, 313, 115, 0, 70, "Subsubsubsection",ExpressionUUID->"b7ee6418-ad29-4c4d-b513-c01cb9feccd2"],
+Cell[14563, 315, 136, 0, 70, "Text",ExpressionUUID->"1e2659ba-a6e0-4cce-9f60-a548efc59232"],
+Cell[14702, 317, 188, 3, 70, "Code",ExpressionUUID->"84717fce-f5de-4ea9-88db-b3bf87e11d18"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14927, 325, 115, 0, 70, "Subsubsubsection",ExpressionUUID->"648152b8-ca6e-4055-98ae-2d2c99773504"],
+Cell[15045, 327, 136, 0, 70, "Text",ExpressionUUID->"00f22f1b-4582-4140-a28a-54e57aad5ffe"],
+Cell[15184, 329, 193, 3, 70, "Code",ExpressionUUID->"7e029485-590f-4669-9583-9e0a7f6945a1"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[15414, 337, 122, 0, 70, "Subsubsubsection",ExpressionUUID->"42fe0fe0-fbc4-4b93-8da6-78f97f7ca004"],
+Cell[15539, 339, 143, 0, 70, "Text",ExpressionUUID->"227a7ae0-9b92-4c9b-8e20-578d436acda9"],
+Cell[15685, 341, 195, 3, 70, "Code",ExpressionUUID->"0246d176-e9d0-46fb-a84f-f1e3ed2347fe"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[15917, 349, 110, 0, 70, "Subsubsubsection",ExpressionUUID->"0f8f6552-1f6b-4254-9236-6a8567038676"],
+Cell[16030, 351, 131, 0, 70, "Text",ExpressionUUID->"c4981912-a899-43ad-8557-176734d7af92"],
+Cell[16164, 353, 183, 3, 70, "Code",ExpressionUUID->"7f15fc1b-d36b-4c92-8e0d-fa473c78e190"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[16384, 361, 111, 0, 70, "Subsubsubsection",ExpressionUUID->"08e2eb75-33ec-4bf0-ab67-dc96e93f22b0"],
+Cell[16498, 363, 132, 0, 70, "Text",ExpressionUUID->"f60f65ad-46c2-4bb5-87f6-78793f8f7450"],
+Cell[16633, 365, 189, 3, 70, "Code",ExpressionUUID->"8d5bad64-8f38-4f31-abae-e1ac772b57d2"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[16859, 373, 109, 0, 70, "Subsubsubsection",ExpressionUUID->"ac3ff470-838e-4848-a156-0cd65b757bfb"],
+Cell[16971, 375, 130, 0, 70, "Text",ExpressionUUID->"b2b7bed7-8c84-41e0-be2b-31e0decdfa1a"],
+Cell[17104, 377, 182, 3, 70, "Code",ExpressionUUID->"e20dd61e-01d0-4afe-8c67-f3dca53f5f10"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[17323, 385, 114, 0, 70, "Subsubsubsection",ExpressionUUID->"4b7b4201-5f6f-4303-9416-d0701e296b6a"],
+Cell[17440, 387, 135, 0, 70, "Text",ExpressionUUID->"a701b5f2-a343-455b-acfb-597747f1bc3d"],
+Cell[17578, 389, 192, 3, 70, "Code",ExpressionUUID->"22be9a8f-e5b8-43ab-ba81-39b3e849bc28"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[17807, 397, 120, 0, 70, "Subsubsubsection",ExpressionUUID->"6c3375aa-f895-4925-9192-92f2c6066669"],
+Cell[17930, 399, 141, 0, 70, "Text",ExpressionUUID->"045c2fa8-e85f-4c94-9988-fb0c0d3564e5"],
+Cell[18074, 401, 193, 3, 70, "Code",ExpressionUUID->"3c7d9832-8f1b-4058-bd66-6eae1e4b0289"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[18304, 409, 108, 0, 70, "Subsubsubsection",ExpressionUUID->"cf7ccd3a-b1b4-4ce2-bbd9-e5db9a2af2e6"],
+Cell[18415, 411, 129, 0, 70, "Text",ExpressionUUID->"a4bec147-bf5c-4b4a-9515-b5f5d27e70df"],
+Cell[18547, 413, 181, 3, 70, "Code",ExpressionUUID->"8e90a77d-e126-48e7-b583-40b6e1914274"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[18765, 421, 118, 0, 70, "Subsubsubsection",ExpressionUUID->"cb678d38-bb1a-4252-8ab0-05c988f72ed0"],
+Cell[18886, 423, 139, 0, 70, "Text",ExpressionUUID->"397d6cdb-1570-4da1-b11c-64d48fc326dc"],
+Cell[19028, 425, 196, 3, 70, "Code",ExpressionUUID->"504481d9-24b0-4442-9bf4-d160d4ada8aa"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[19261, 433, 114, 0, 70, "Subsubsubsection",ExpressionUUID->"846ec419-4309-49c2-8d0b-f7e371195070"],
+Cell[19378, 435, 135, 0, 70, "Text",ExpressionUUID->"8a47c4af-dcd1-49e1-b800-412453e0cfab"],
+Cell[19516, 437, 192, 3, 70, "Code",ExpressionUUID->"f17dfae7-3113-460d-9d52-60fdebac0379"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[19745, 445, 115, 0, 70, "Subsubsubsection",ExpressionUUID->"57700f8a-2021-4ea1-8f75-e862527384aa"],
+Cell[19863, 447, 136, 0, 70, "Text",ExpressionUUID->"e20c1cd3-c1c2-4a17-a68c-086b8b299439"],
+Cell[20002, 449, 192, 3, 70, "Code",ExpressionUUID->"a9e93f94-910b-42ee-aff7-59fb8f2eb663"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[20231, 457, 106, 0, 70, "Subsubsubsection",ExpressionUUID->"e89f7ff9-ea39-4aff-9527-d26411d9740e"],
+Cell[20340, 459, 127, 0, 70, "Text",ExpressionUUID->"c071e4bc-4f4d-4fb7-b777-5045c8367bac"],
+Cell[20470, 461, 179, 3, 70, "Code",ExpressionUUID->"b6fe22fb-3d0a-4905-89f8-3de871712304"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[20686, 469, 115, 0, 70, "Subsubsubsection",ExpressionUUID->"98f6df26-84b1-4c1b-a656-ecddc38a4d24"],
+Cell[20804, 471, 136, 0, 70, "Text",ExpressionUUID->"588334ca-abe5-4d3d-a7e5-9c1cd5236d15"],
+Cell[20943, 473, 240, 5, 70, "Code",ExpressionUUID->"b50778f4-bcd6-4c73-bebb-6578bb586701"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[21220, 483, 113, 0, 70, "Subsubsubsection",ExpressionUUID->"012ad205-6eeb-47f4-8f66-1c22b25c4d80"],
+Cell[21336, 485, 134, 0, 70, "Text",ExpressionUUID->"1c3313ae-5564-457c-86cd-2adf2e6f0cc1"],
+Cell[21473, 487, 186, 3, 70, "Code",ExpressionUUID->"647f442b-6f20-4ff6-81b2-2b852e44576a"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[21696, 495, 111, 0, 70, "Subsubsubsection",ExpressionUUID->"354fcac8-b252-4b0b-9b21-fd3410b5025e"],
+Cell[21810, 497, 132, 0, 70, "Text",ExpressionUUID->"919f84fc-bb0c-4362-a66b-7c232d228a3c"],
+Cell[21945, 499, 189, 3, 70, "Code",ExpressionUUID->"5b50431d-fd6c-4b4a-83f0-949c7e0ff489"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[22171, 507, 109, 0, 70, "Subsubsubsection",ExpressionUUID->"174e8c8d-b40c-420a-b74f-cbad4312e92e"],
+Cell[22283, 509, 130, 0, 70, "Text",ExpressionUUID->"bbf6d2d9-3a0d-4021-bc63-e68590d03b20"],
+Cell[22416, 511, 179, 3, 70, "Code",ExpressionUUID->"069878a8-cb4a-4691-b2f0-ee854acf2f3e"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[22632, 519, 112, 0, 70, "Subsubsubsection",ExpressionUUID->"a1c5c285-e7ef-4357-be3d-a24c946e3e3f"],
+Cell[22747, 521, 133, 0, 70, "Text",ExpressionUUID->"976db94c-bb43-4d9a-9c35-ce50c923231c"],
+Cell[22883, 523, 185, 3, 70, "Code",ExpressionUUID->"60508cd7-6145-432e-ac62-c07dfc6548d7"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[23105, 531, 112, 0, 70, "Subsubsubsection",ExpressionUUID->"0a8c9dc4-c86e-4f4b-bf8e-22ca578ff3e8"],
+Cell[23220, 533, 133, 0, 70, "Text",ExpressionUUID->"ada7b4a0-6d57-4c4c-9a84-348d5b5d591a"],
+Cell[23356, 535, 197, 3, 70, "Code",ExpressionUUID->"68dce55e-bed2-4a12-ad62-56c7eb950259"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[23590, 543, 113, 0, 70, "Subsubsubsection",ExpressionUUID->"75a099a4-a686-4e9f-aeba-bfd60e588e6d"],
+Cell[23706, 545, 134, 0, 70, "Text",ExpressionUUID->"b68f69e4-3649-4e84-b329-a430b8879992"],
+Cell[23843, 547, 186, 3, 70, "Code",ExpressionUUID->"e391846b-4252-4b6f-935f-8908c7af4df8"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[24066, 555, 113, 0, 70, "Subsubsubsection",ExpressionUUID->"dceb86f1-01e1-4891-964d-24667e908055"],
+Cell[24182, 557, 134, 0, 70, "Text",ExpressionUUID->"8a8a1d10-d544-44b5-ada9-ffb274688db8"],
+Cell[24319, 559, 186, 3, 70, "Code",ExpressionUUID->"d649cc96-b97a-4b82-b2e7-73da4548fd6f"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[24542, 567, 111, 0, 70, "Subsubsubsection",ExpressionUUID->"b7769745-24b1-4b5c-9a45-e7a07a575146"],
+Cell[24656, 569, 132, 0, 70, "Text",ExpressionUUID->"9eab2e2e-6c47-440b-b7c9-f23ed7f6f6c6"],
+Cell[24791, 571, 189, 3, 70, "Code",ExpressionUUID->"e85b6042-1eab-4733-ade7-daaa1c78c0ce"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[25017, 579, 113, 0, 70, "Subsubsubsection",ExpressionUUID->"4f346156-1632-4fa0-ae4b-cbeae49b868b"],
+Cell[25133, 581, 134, 0, 70, "Text",ExpressionUUID->"370b7f0e-1c9e-450d-af47-143ea455d11d"],
+Cell[25270, 583, 183, 3, 70, "Code",ExpressionUUID->"bb680102-9a55-4a39-aa94-0789b44dd297"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[25490, 591, 113, 0, 70, "Subsubsubsection",ExpressionUUID->"5a8200ce-92f3-49b8-8feb-fb0797804e67"],
+Cell[25606, 593, 134, 0, 70, "Text",ExpressionUUID->"277dd7a8-1969-4596-b1ce-16e031e3d403"],
+Cell[25743, 595, 183, 3, 70, "Code",ExpressionUUID->"f65a620d-5dc2-4c2f-8957-721f427db4e8"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[25963, 603, 111, 0, 70, "Subsubsubsection",ExpressionUUID->"02412e63-7fdf-4481-b630-471407981ebc"],
+Cell[26077, 605, 132, 0, 70, "Text",ExpressionUUID->"89380da7-e6c1-4b94-9474-0f4ad11ca638"],
+Cell[26212, 607, 185, 3, 70, "Code",ExpressionUUID->"cfd22b88-250b-40d2-963b-9636cec020ff"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[26434, 615, 113, 0, 70, "Subsubsubsection",ExpressionUUID->"b8485873-7773-4bc4-b603-3fb864015f8a"],
+Cell[26550, 617, 134, 0, 70, "Text",ExpressionUUID->"04683b36-0c82-401c-8486-7a5b1f6a326c"],
+Cell[26687, 619, 183, 3, 70, "Code",ExpressionUUID->"f4ee0633-4cea-4407-b295-33ada923f6b4"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[26907, 627, 112, 0, 70, "Subsubsubsection",ExpressionUUID->"da5f6e0b-fd3d-435b-aef6-db2d2e458db8"],
+Cell[27022, 629, 133, 0, 70, "Text",ExpressionUUID->"1d24cc9d-4b8b-4d33-848f-dc6f33592815"],
+Cell[27158, 631, 182, 3, 70, "Code",ExpressionUUID->"5ae65426-b27a-49eb-b646-47cfbfbf9b69"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[27377, 639, 110, 0, 70, "Subsubsubsection",ExpressionUUID->"8de09f83-70e7-4f69-96df-9e7e6854fdfa"],
+Cell[27490, 641, 131, 0, 70, "Text",ExpressionUUID->"290e273b-a08d-416e-9949-ab1c57bfd36e"],
+Cell[27624, 643, 184, 3, 70, "Code",ExpressionUUID->"bd1b279b-0a59-4f78-bc1f-cd9b542d7c0e"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[27845, 651, 118, 0, 70, "Subsubsubsection",ExpressionUUID->"276f38b5-4eea-499e-a146-a70e1da5b7e0"],
+Cell[27966, 653, 139, 0, 70, "Text",ExpressionUUID->"a65ff683-d3be-4fe4-bb44-2bbeead23c40"],
+Cell[28108, 655, 191, 3, 70, "Code",ExpressionUUID->"54972e9c-9cfe-45c8-9e67-e699639a3968"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[28336, 663, 113, 0, 70, "Subsubsubsection",ExpressionUUID->"3bcc4877-3b2b-4ae2-ad95-7197f8304bb7"],
+Cell[28452, 665, 134, 0, 70, "Text",ExpressionUUID->"4f3777f0-c58f-4bd9-b492-71cd8556153e"],
+Cell[28589, 667, 191, 3, 70, "Code",ExpressionUUID->"50843dd2-83df-429c-b841-571facf61883"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[28817, 675, 117, 0, 70, "Subsubsubsection",ExpressionUUID->"b9efe16c-ea5c-4d03-802a-a2ff0630496d"],
+Cell[28937, 677, 138, 0, 70, "Text",ExpressionUUID->"61eb990c-5a96-43cb-b358-41ad1993b734"],
+Cell[29078, 679, 205, 4, 70, "Code",ExpressionUUID->"de5563f8-eeb4-4ae1-ac6a-1c9978365707"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[29320, 688, 111, 0, 70, "Subsubsubsection",ExpressionUUID->"1194c375-491f-45c6-9b24-d32e1e6ed194"],
+Cell[29434, 690, 132, 0, 70, "Text",ExpressionUUID->"dccf4bad-7d4b-473d-9973-fbc2832eedeb"],
+Cell[29569, 692, 190, 3, 70, "Code",ExpressionUUID->"c76b8678-99bf-42c2-9ae5-21b8368fd9c1"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[29796, 700, 113, 0, 70, "Subsubsubsection",ExpressionUUID->"cbc54582-cacf-411e-a128-eb8b3b0d88ec"],
+Cell[29912, 702, 134, 0, 70, "Text",ExpressionUUID->"fa2db810-a7fb-4fa9-92f8-8221180b990b"],
+Cell[30049, 704, 191, 3, 70, "Code",ExpressionUUID->"83fb804e-51dd-4d76-b2a3-b9d920bb2dd6"]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[30289, 713, 110, 0, 32, "Subsubsection",ExpressionUUID->"9e1021a8-cf17-41d4-9a46-1e9e1ccfe4c2"],
+Cell[30402, 715, 111, 0, 70, "Text",ExpressionUUID->"b673dcd9-e651-42a2-833a-8454defb382e"],
+Cell[30516, 717, 179, 3, 70, "Code",ExpressionUUID->"56ed12af-a858-41e6-a2dd-9d5d6af83506"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30744, 726, 96, 0, 33, "Subsection",ExpressionUUID->"c8af2132-5e2a-48f4-bc6b-255c95908a35"],
+Cell[30843, 728, 1857, 64, 78, "Text",ExpressionUUID->"77ca662a-e5b0-4873-b68e-38d1567aa6a1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32737, 797, 102, 0, 33, "Subsection",ExpressionUUID->"c7115e83-236c-4b4e-b526-e3dabad14a19"],
+Cell[CellGroupData[{
+Cell[32864, 801, 161, 3, 31, "Item",ExpressionUUID->"ea442138-312f-406c-91f6-4725784c53e2"],
+Cell[33028, 806, 161, 3, 31, "Item",ExpressionUUID->"3e9b7e01-dd2c-45aa-9e1b-44b91534b0ea"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33238, 815, 106, 0, 33, "Subsection",ExpressionUUID->"0b323751-47eb-46f0-bb59-b43e24ca6d97"],
+Cell[CellGroupData[{
+Cell[33369, 819, 200, 5, 31, "Item",ExpressionUUID->"59a40bfb-d593-4de9-a6e9-8ec5582f010d"],
+Cell[33572, 826, 220, 5, 31, "Item",ExpressionUUID->"62f73580-b254-4932-bbe1-f4a68bbc20cc"]
+}, Open  ]]
+}, Open  ]],
+Cell[33819, 835, 101, 0, 61, "Text",ExpressionUUID->"08503f82-e41b-472b-a912-c25be2758eb5"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,3 +1,5 @@
-/VQM.nb
+.idea/*
+build/*
+Documentation/*
 /TODO.nb
 /WORK.nb
