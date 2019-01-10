@@ -9,7 +9,7 @@ Paclet[
 
      		"Documentation",
 
-     		"Resources" -> {"Guides/VQM-Guide"},
+     		"Resources" -> {"Tutorials/ArgColorPlot"},
 
      		"Language" -> "English"
 

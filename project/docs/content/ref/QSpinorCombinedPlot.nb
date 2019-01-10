@@ -1,0 +1,316 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     11358,        306]
+NotebookOptionsPosition[      7195,        226]
+NotebookOutlinePosition[      8383,        257]
+CellTagsIndexPosition[      8340,        254]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Markdown", " ", "metadata"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"<|", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"\"\<Date\>\"", "\[RuleDelayed]", "Now"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<ExportOptions\>\"", "\[Rule]", 
+     RowBox[{"{", "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{"\"\<UseImageInput\>\"", "\[Rule]", "True"}], "*)"}], 
+      "\[IndentingNewLine]", "}"}]}]}], "\[IndentingNewLine]", 
+   "|>"}]}]], "Metadata",ExpressionUUID->"b41a7ad0-1f3a-42ae-bc16-\
+2d6b64f8f0b1"],
+
+Cell["VQM Symbol", "TitleBar",
+ CellID->49635980,ExpressionUUID->"cf36843e-7681-4519-a4f1-99a2dccf23e4"],
+
+Cell[CellGroupData[{
+
+Cell["QSpinorCombinedPlot", "Section", "SymbolName",ExpressionUUID->"d45b22c3-c638-439b-bd57-fc3ac3013e75"],
+
+Cell["", "UsageSection",ExpressionUUID->"afda5112-cab4-48ae-ab57-4b2b6b662b83"],
+
+Cell[BoxData[
+ RowBox[{"QSpinorCombinedPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"fun", ",", " ", "fun"}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", "xmi", ",", " ", "xma"}], "}"}], ",", " ", "opt"}],
+   "]"}]], "Code", \
+"UsageInput",ExpressionUUID->"69742a0c-9468-4ce4-a8be-29bca13b0142"],
+
+Cell[" has no usage message", "Text", "UsageText",ExpressionUUID->"cb1a1bd6-19f1-48a8-b248-0371724ef709"],
+
+Cell["", "UsageSectionFooter",ExpressionUUID->"a0e096cc-de86-49be-97b0-ae45e58c75f4"],
+
+Cell[CellGroupData[{
+
+Cell["Details", "Subsection", "DetailsSection",ExpressionUUID->"7a0b3714-155f-485d-88c6-88390db7bb1a"],
+
+Cell[CellGroupData[{
+
+Cell["QSpinorCombinedPlot has 1 call pattern", "Item", "DetailsItem",ExpressionUUID->"85d284e2-ec24-477a-bd99-30693821e2b4"],
+
+Cell["QSpinorCombinedPlot has the following Attributes", "Item", "DetailsItem",ExpressionUUID->"feee51b3-753f-4c11-891f-d949e1066b4f"],
+
+Cell["Protected", "Subitem", "DetailsItem",ExpressionUUID->"98f3978e-d01d-49f5-afc0-d5ff2ee8aa6f"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Examples", "Subsection", "ExamplesSection",ExpressionUUID->"5f001654-0351-4465-8020-b86d0f54a0fd"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Examples", "Subsubsection", "ExamplesSection",ExpressionUUID->"72b78930-89a3-4ab0-a6da-d2359ff2aa3f"],
+
+Cell["Load the package:", "Text", "ExamplesText",ExpressionUUID->"9c0050a3-96b5-43a1-92b7-f166a15ab81d"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<VQM`ArgColorPlot`\>\"", "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"90f6af08-03cb-418a-b69e-aaef74b0570e"],
+
+Cell["QSpinorCombinedPlot[{fun, fun}, {x, xmi, xma}, opt]", "Text", "ExamplesText",ExpressionUUID->"3875928d-cf9e-4e47-8987-30b0ca8790e1"],
+
+Cell[BoxData[
+ RowBox[{"QSpinorCombinedPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"func1", ",", " ", "func2"}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", "xmin", ",", " ", "xmax"}], "}"}]}], "]"}]], "Code",\
+ "ExamplesInput",ExpressionUUID->"6987a82c-c024-4c17-a153-550632151a16"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Definitions", "Subsubsection", "ExamplesSection",ExpressionUUID->"53f44616-3690-489a-aead-dfc762958d05"],
+
+Cell["Examine all definitions:", "Text", "ExamplesText",ExpressionUUID->"7605453d-903d-42f3-ad39-a650b2af4cef"],
+
+Cell[BoxData[
+ RowBox[{"GeneralUtilities`PrintDefinitionsLocal", "[", "QSpinorCombinedPlot",
+   "]"}]], "Code", \
+"ExamplesInput",ExpressionUUID->"0bf1d4f3-da20-4d21-973c-a0f80196ded9"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["See Also", "Subsection", "SeeAlso",ExpressionUUID->"0ce684f3-61b1-452d-867c-4e1a9a94d08f"],
+
+Cell[TextData[{
+ ButtonBox["QArgColorPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QArgColorPlot"],
+ " | ",
+ ButtonBox["QBottomLine",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QBottomLine"],
+ " | ",
+ ButtonBox["QBrightness",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QBrightness"],
+ " | ",
+ ButtonBox["QCombinedPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QCombinedPlot"],
+ " | ",
+ ButtonBox["QCurveStyle",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QCurveStyle"],
+ " | ",
+ ButtonBox["QHorizontalRange",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QHorizontalRange"],
+ " | ",
+ ButtonBox["QListArgColorPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QListArgColorPlot"],
+ " | ",
+ ButtonBox["QListCombinedPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QListCombinedPlot"],
+ " | ",
+ ButtonBox["QListSpinorCombinedPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QListSpinorCombinedPlot"],
+ " | ",
+ ButtonBox["QListSpinorPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QListSpinorPlot"],
+ " | ",
+ ButtonBox["QNiceTicks",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QNiceTicks"],
+ " | ",
+ ButtonBox["QPlotDown",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QPlotDown"],
+ " | ",
+ ButtonBox["QSaturation",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QSaturation"],
+ " | ",
+ ButtonBox["QShiftPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QShiftPlot"],
+ " | ",
+ ButtonBox["QSpinorPlot",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QSpinorPlot"],
+ " | ",
+ ButtonBox["QSquared",
+  BaseStyle->{"Link", "Input"},
+  ButtonData->"paclet:ref/QSquared"]
+}], "Text",ExpressionUUID->"ed330d9b-ef85-4c7a-a53b-7bb94f6b5d7e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Guides", "Subsection", "Related",ExpressionUUID->"1a1ca9e3-b2c1-44e0-aad7-42a007bb02fe"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[ButtonBox["Guide 1",
+ BaseStyle->"Link",
+ ButtonData->"paclet:Pkg/guide/Guide1"]], "Item",ExpressionUUID->"9a378380-\
+ea93-4d4c-9eb2-604211f02fef"],
+
+Cell[TextData[ButtonBox["Guide 2",
+ BaseStyle->"Link",
+ ButtonData->"paclet:Pkg/guide/Guide2"]], "Item",ExpressionUUID->"9d00bbb4-\
+fdfd-4afb-95da-9878b49c7cc5"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Links", "Subsection", "RelatedLinks",ExpressionUUID->"e60269ca-b3a5-4306-a0d2-f5f6d06fc485"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[ButtonBox["Link 1",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://google.com"], None},
+ ButtonNote->"Link 1"]], "Item",ExpressionUUID->"d62ffc77-001e-4d5a-aa86-\
+85c8c3be91c7"],
+
+Cell[TextData[ButtonBox["Link 2",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://paclets.github.io/PacletServer"], None},
+ ButtonNote->"Link 2"]], "Item",ExpressionUUID->"1dd0e8f1-fec3-4236-ae7b-\
+d1b2327f52dd"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["Made with SimpleDocs", "Text", "Footer",ExpressionUUID->"1ea00c4b-5bd3-4b54-9672-91ffabe98492"]
+}, Open  ]]
+},
+ScreenStyleEnvironment->"Editing",
+WindowSize->{1501, 1189},
+WindowMargins->{{Automatic, 112}, {Automatic, 86}},
+TaggingRules->{
+ "Metadata" -> {
+   "built" -> "{2019, 1, 10, 13, 56, 53.1106854}", 
+    "history" -> {"12.", "", ""}, "context" -> "VQM`ArgColorPlot`", 
+    "keywords" -> {}, "specialkeywords" -> {}, 
+    "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
+    "QSpinorCombinedPlot", "language" -> "en", "paclet" -> "Mathematica", 
+    "status" -> "None", "summary" -> "", "synonyms" -> {}, "tabletags" -> {}, 
+    "title" -> "QSpinorCombinedPlot", "titlemodifier" -> "", "windowtitle" -> 
+    "QSpinorCombinedPlot", "type" -> "Symbol", "uri" -> 
+    "VQM/ref/QSpinorCombinedPlot"}, "ColorType" -> "SymbolColor", 
+  "SimpleDocs" -> {
+   "MarkdownAutosave" -> False, "DocumentationAutosave" -> False}, "Paclet" -> 
+  "VQM"},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (January 7, 2019)",
+StyleDefinitions->FrontEnd`FileName[{"SimpleDocs"}, "SimpleDocs.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 594, 14, 165, "Metadata",ExpressionUUID->"b41a7ad0-1f3a-42ae-bc16-2d6b64f8f0b1"],
+Cell[1155, 36, 104, 1, 43, "TitleBar",ExpressionUUID->"cf36843e-7681-4519-a4f1-99a2dccf23e4",
+ CellID->49635980],
+Cell[CellGroupData[{
+Cell[1284, 41, 107, 0, 53, "Section",ExpressionUUID->"d45b22c3-c638-439b-bd57-fc3ac3013e75"],
+Cell[1394, 43, 79, 0, 11, "UsageSection",ExpressionUUID->"afda5112-cab4-48ae-ab57-4b2b6b662b83"],
+Cell[1476, 45, 321, 8, 31, "Code",ExpressionUUID->"69742a0c-9468-4ce4-a8be-29bca13b0142"],
+Cell[1800, 55, 105, 0, 37, "Text",ExpressionUUID->"cb1a1bd6-19f1-48a8-b248-0371724ef709"],
+Cell[1908, 57, 85, 0, 30, "UsageSectionFooter",ExpressionUUID->"a0e096cc-de86-49be-97b0-ae45e58c75f4"],
+Cell[CellGroupData[{
+Cell[2018, 61, 102, 0, 33, "Subsection",ExpressionUUID->"7a0b3714-155f-485d-88c6-88390db7bb1a"],
+Cell[CellGroupData[{
+Cell[2145, 65, 124, 0, 70, "Item",ExpressionUUID->"85d284e2-ec24-477a-bd99-30693821e2b4"],
+Cell[2272, 67, 134, 0, 70, "Item",ExpressionUUID->"feee51b3-753f-4c11-891f-d949e1066b4f"],
+Cell[2409, 69, 98, 0, 70, "Subitem",ExpressionUUID->"98f3978e-d01d-49f5-afc0-d5ff2ee8aa6f"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2556, 75, 104, 0, 33, "Subsection",ExpressionUUID->"5f001654-0351-4465-8020-b86d0f54a0fd"],
+Cell[CellGroupData[{
+Cell[2685, 79, 113, 0, 32, "Subsubsection",ExpressionUUID->"72b78930-89a3-4ab0-a6da-d2359ff2aa3f"],
+Cell[2801, 81, 104, 0, 34, "Text",ExpressionUUID->"9c0050a3-96b5-43a1-92b7-f166a15ab81d"],
+Cell[2908, 83, 155, 2, 34, "Code",ExpressionUUID->"90f6af08-03cb-418a-b69e-aaef74b0570e"],
+Cell[3066, 87, 138, 0, 34, "Text",ExpressionUUID->"3875928d-cf9e-4e47-8987-30b0ca8790e1"],
+Cell[3207, 89, 310, 7, 34, "Code",ExpressionUUID->"6987a82c-c024-4c17-a153-550632151a16"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3554, 101, 110, 0, 32, "Subsubsection",ExpressionUUID->"53f44616-3690-489a-aead-dfc762958d05"],
+Cell[3667, 103, 111, 0, 70, "Text",ExpressionUUID->"7605453d-903d-42f3-ad39-a650b2af4cef"],
+Cell[3781, 105, 185, 3, 70, "Code",ExpressionUUID->"0bf1d4f3-da20-4d21-973c-a0f80196ded9"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4015, 114, 96, 0, 33, "Subsection",ExpressionUUID->"0ce684f3-61b1-452d-867c-4e1a9a94d08f"],
+Cell[4114, 116, 1845, 64, 56, "Text",ExpressionUUID->"ed330d9b-ef85-4c7a-a53b-7bb94f6b5d7e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5996, 185, 102, 0, 33, "Subsection",ExpressionUUID->"1a1ca9e3-b2c1-44e0-aad7-42a007bb02fe"],
+Cell[CellGroupData[{
+Cell[6123, 189, 161, 3, 31, "Item",ExpressionUUID->"9a378380-ea93-4d4c-9eb2-604211f02fef"],
+Cell[6287, 194, 161, 3, 31, "Item",ExpressionUUID->"9d00bbb4-fdfd-4afb-95da-9878b49c7cc5"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6497, 203, 106, 0, 33, "Subsection",ExpressionUUID->"e60269ca-b3a5-4306-a0d2-f5f6d06fc485"],
+Cell[CellGroupData[{
+Cell[6628, 207, 200, 5, 31, "Item",ExpressionUUID->"d62ffc77-001e-4d5a-aa86-85c8c3be91c7"],
+Cell[6831, 214, 220, 5, 31, "Item",ExpressionUUID->"1dd0e8f1-fec3-4236-ae7b-d1b2327f52dd"]
+}, Open  ]]
+}, Open  ]],
+Cell[7078, 223, 101, 0, 61, "Text",ExpressionUUID->"1ea00c4b-5bd3-4b54-9672-91ffabe98492"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
